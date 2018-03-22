@@ -1,0 +1,11 @@
+digraph G {
+early_mean;
+late_mean;
+switchpoint;
+rate [shape=invtriangle];
+switchpoint -> rate  [label=s];
+early_mean -> rate  [label=e];
+late_mean -> rate  [label=l];
+disasters [style=filled];
+rate -> disasters  [label=mu];
+}

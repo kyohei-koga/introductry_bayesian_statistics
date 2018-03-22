@@ -1,0 +1,9 @@
+digraph G {
+mu;
+profit [style=filled];
+mu -> profit  [label=mu];
+"(sigma_rdiv_1)" [shape=invtriangle];
+"(sigma_rdiv_1)" -> profit  [label=tau];
+sigma;
+sigma -> "(sigma_rdiv_1)"  [label=b];
+}
